@@ -1,7 +1,7 @@
 {
   "homepage": "https://kuna-kuna-kuna.github.io/superadmin",
   "name": "super-admin",
-  "version": "0.1.2",
+  "version": "0.1.10",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",

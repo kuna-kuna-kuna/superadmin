@@ -25,7 +25,7 @@ function App() {
     getAuthTokenFromLocalStorage();
   }, [dispatch]);
   return (
-    <Router>
+    <Router basename="/superadmin">
       <Routes>
         <Route path="/" element={authToken ? <Home /> : <Registration />} />
         <Route path={"/login"} element={<Login authToken={authToken} />} />
