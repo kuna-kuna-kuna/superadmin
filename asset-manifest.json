@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/suoer-admin/static/css/main.d29b3a11.css",
+    "main.js": "/suoer-admin/static/js/main.b8fcf6fc.js",
+    "index.html": "/suoer-admin/index.html",
+    "main.d29b3a11.css.map": "/suoer-admin/static/css/main.d29b3a11.css.map",
+    "main.b8fcf6fc.js.map": "/suoer-admin/static/js/main.b8fcf6fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d29b3a11.css",
+    "static/js/main.b8fcf6fc.js"
+  ]
+}
