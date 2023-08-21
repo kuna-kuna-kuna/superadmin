@@ -27,7 +27,11 @@ function App() {
   return (
     <Router basename="/superadmin">
       <Routes>
-        <Route path="/" element={authToken ? <Home /> : <Registration />} />
+        <Route
+          path="/"
+          exact
+          element={authToken ? <Home /> : <Registration />}
+        />
         <Route path={"/login"} element={<Login authToken={authToken} />} />
         <Route
           path="/form-details/:id"
