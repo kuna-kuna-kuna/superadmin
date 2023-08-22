@@ -25,10 +25,10 @@ function App() {
     getAuthTokenFromLocalStorage();
   }, [dispatch]);
   return (
-    <Router basename="/superadmin">
+    <Router>
       <Routes>
         <Route
-          path="/"
+          path="/superadmin"
           exact
           element={authToken ? <Home /> : <Registration />}
         />
