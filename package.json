@@ -1,7 +1,7 @@
 {
   "homepage": "https://kuna-kuna-kuna.github.io/superadmin/",
   "name": "super-admin",
-  "version": "0.1.22",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
